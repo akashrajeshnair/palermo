@@ -1,0 +1,69 @@
+.app-aboutus {
+    position: relative;
+}
+
+.app-aboutus-overlay {
+    position: absolute;
+    inset: 0;
+    padding-top: 150px;
+}
+
+.app-aboutus-overlay img {
+    width: 450px;
+    height: 300px;
+    z-index: 0;
+    padding: none;
+}
+
+.app-aboutus-content {
+    width: 100%;
+    z-index: 2;
+    padding-bottom: 250px;
+}
+
+.app-aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.app-aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.app-aboutus-content_about p,
+.app-aboutus-content_history p {
+    margin: 2rem 0;
+    color: #512c55;
+}
+
+@media screen and (min-width: 2000px) {
+
+    .app-aboutus-content_about p,
+    .app-aboutus-content_history p {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app-aboutus-content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app-aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+}

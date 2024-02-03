@@ -1,0 +1,16 @@
+.app-header{
+    background-color: #FBF6EE;
+}
+
+.app-header-h1{
+    font-family: var(--font-base);
+    color: #512c55;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app-header-img img{
+    width: 80%;
+}
