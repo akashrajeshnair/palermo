@@ -3,8 +3,6 @@ import {useNavigate} from "react-router-dom";
 
 import {images} from '../../constants'
 import './Book.css';
-import { SubHeading } from "../../components";
-import BookConfirm from "../BookConfirm/BookConfirm"
 
 const Book = () => {
   const navigate = useNavigate();
