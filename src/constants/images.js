@@ -37,6 +37,7 @@ import latte from '../assets/latte.jpg'
 import background from '../assets/background.jpg'
 import background2 from '../assets/background2.jpg'
 
+// eslint-disable-next-line
 export default {
   bg,
   chef,

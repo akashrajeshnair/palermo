@@ -1,6 +1,5 @@
 import React from 'react';
 import './MenuHeader.css'
-import SubHeading from '../SubHeading/SubHeading';
 
 const MenuHeader = () => (
   <div>

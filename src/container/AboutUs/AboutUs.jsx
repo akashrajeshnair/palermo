@@ -32,7 +32,7 @@ const AboutUs = () => {
       </div>
     </div>
     <div className="image-container flex-center">
-      <img src={images.background2} alt="Image" />
+      <img src={images.background2} alt="..." />
       <div className="caption-box">
         <p className="caption-text p__cormorant">Palermo is the perfect place to spend time with friends and family.</p>
       </div>
