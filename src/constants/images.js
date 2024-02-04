@@ -35,6 +35,7 @@ import gelato from '../assets/gelato.jpg'
 import espresso from '../assets/espresso.jpg'
 import latte from '../assets/latte.jpg'
 import background from '../assets/background.jpg'
+import background2 from '../assets/background2.jpg'
 
 export default {
   bg,
@@ -74,4 +75,5 @@ export default {
   espresso,
   latte,
   background,
+  background2,
 };

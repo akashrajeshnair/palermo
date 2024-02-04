@@ -1,0 +1,37 @@
+.awards-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .awards-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .award-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFD1E3;
+    color: #512c55;
+  }
+  
+  .award-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .heading{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }

@@ -7,6 +7,7 @@ import Header from './Header/Header'
 import Book from './Book/Book'
 import BookConfirm from './BookConfirm/BookConfirm'
 import BookCancel from './BookCancel/BookCancel'
+import CancelConfirm from './CancelConfirm/CancelConfirm';
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   Book,
   BookConfirm,
   BookCancel,
+  CancelConfirm
 };

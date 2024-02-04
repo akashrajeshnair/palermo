@@ -2,23 +2,10 @@
     position: relative;
 }
 
-.app-aboutus-overlay {
-    position: absolute;
-    inset: 0;
-    padding-top: 150px;
-}
-
-.app-aboutus-overlay img {
-    width: 450px;
-    height: 300px;
-    z-index: 0;
-    padding: none;
-}
-
 .app-aboutus-content {
     width: 100%;
     z-index: 2;
-    padding-bottom: 250px;
+    
 }
 
 .app-aboutus-content_about {
@@ -27,8 +14,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     padding-right: 15px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
 }
 
 .app-aboutus-content_history {
@@ -37,14 +29,52 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    text-align: left;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .app-aboutus-content_about p,
 .app-aboutus-content_history p {
     margin: 2rem 0;
     color: #512c55;
+}
+.image-container {
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px; 
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    margin-left: 375px;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .caption-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(240, 133, 214, 0.7); /* Transparent black background */
+    padding: 10px;
+  }
+  
+  .caption-text {
+    margin: 0;
+    text-align: center;
+  }
+
+.buffer{
+    height: 20px;
 }
 
 @media screen and (min-width: 2000px) {

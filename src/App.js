@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 }from "react-router-dom";
-import { AboutUs, FindUs, Footer, Header, Laurels, SpecialMenu, Book, BookConfirm, BookCancel } from './container';
+import { AboutUs, FindUs, Footer, Header, Laurels, SpecialMenu, Book, BookConfirm, BookCancel, CancelConfirm } from './container';
 import { Navbar } from './components';
 
 
@@ -22,6 +22,7 @@ function App(){
         <Route exact path="/book" element={<Book/>}></Route>
         <Route exact path="/confirm" element={<BookConfirm/>}></Route>
         <Route exact path="/cancel" element={<BookCancel/>}></Route>
+        <Route exact path="/cancelled" element={<CancelConfirm/>}></Route>
       </Routes>
       <Footer/>
     </Router>
