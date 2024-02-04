@@ -19,6 +19,21 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
+import frittata from '../assets/frittata.jpg'
+import cannoli from '../assets/cannoli.jpg'
+import cornetti from '../assets/cornetti.jpg'
+import biscotti from '../assets/biscotti.jpg'
+import crepe from '../assets/crepe.jpg'
+import pesto from '../assets/pesto.jpg'
+import carbonara from '../assets/carbonara.jpg'
+import margherita from '../assets/margherita.jpg'
+import calzone from '../assets/calzone.jpg'
+import risotto from '../assets/risotto.jpg'
+import pannacotta from '../assets/pannacotta.jpg'
+import tiramisu from '../assets/tiramisu.jpg'
+import gelato from '../assets/gelato.jpg'
+import espresso from '../assets/espresso.jpg'
+import latte from '../assets/latte.jpg'
 
 export default {
   bg,
@@ -42,4 +57,19 @@ export default {
   award05,
   sign,
   quote,
+  crepe,
+  cannoli,
+  frittata,
+  biscotti,
+  cornetti,
+  pesto,
+  calzone,
+  carbonara,
+  risotto,
+  margherita,
+  pannacotta,
+  tiramisu,
+  gelato,
+  espresso,
+  latte,
 };

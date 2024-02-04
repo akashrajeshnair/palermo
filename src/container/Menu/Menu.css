@@ -1,0 +1,14 @@
+#breakfast{
+    text-align: center;  
+}
+#lunch{
+    text-align: center;  
+}
+#beverages{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}

@@ -1,12 +1,13 @@
 import React from 'react';
+import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 }from "react-router-dom";
-import { AboutUs, FindUs, Footer, Header, Laurels, SpecialMenu, Book, BookConfirm } from './container';
+import { AboutUs, FindUs, Footer, Header, Laurels, SpecialMenu, Book, BookConfirm, BookCancel } from './container';
 import { Navbar } from './components';
-import './App.css';
+
 
 function App(){
   return(
@@ -20,6 +21,7 @@ function App(){
         <Route exact path="/contact" element={<FindUs/>}></Route>
         <Route exact path="/book" element={<Book/>}></Route>
         <Route exact path="/confirm" element={<BookConfirm/>}></Route>
+        <Route exact path="/cancel" element={<BookCancel/>}></Route>
       </Routes>
       <Footer/>
     </Router>

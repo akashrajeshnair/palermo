@@ -6,6 +6,7 @@ import SpecialMenu from './Menu/Menu';
 import Header from './Header/Header'
 import Book from './Book/Book'
 import BookConfirm from './BookConfirm/BookConfirm'
+import BookCancel from './BookCancel/BookCancel'
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   SpecialMenu,
   Book,
   BookConfirm,
+  BookCancel,
 };
