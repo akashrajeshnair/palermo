@@ -100,22 +100,24 @@ const SpecialMenu = () => {
       image: images.latte,
     },
   ]
-  return(
-  <div className='heading'>
-    <MenuHeader/>
-    <SubHeading title={"Breakfast"} id={'breakfast'}/>
-    <div className='container'>
-      {breakfastItems.map((item,index) =>(<MenuItem key={index} item={item} />))}
+  return( 
+    <div className='menu-page'>
+      <div className='heading'>
+        <MenuHeader/>
+        <SubHeading title={"Breakfast"} id={'breakfast'}/>
+        <div className='container'>
+          {breakfastItems.map((item,index) =>(<MenuItem key={index} item={item} />))}
+        </div>
+        <SubHeading title={"Lunch and Dinner"} id={'lunch'}/>
+        <div className='container'>
+          {lunchItems.map((item,index) =>(<MenuItem key={index} item={item} />))}
+        </div>
+        <SubHeading title={"Dessert and Drinks"} id={'beverages'}/>
+        <div className='container'>
+          {dessertItems.map((item,index) =>(<MenuItem key={index} item={item} />))}
+        </div>
+      </div>
     </div>
-    <SubHeading title={"Lunch and Dinner"} id={'lunch'}/>
-    <div className='container'>
-      {lunchItems.map((item,index) =>(<MenuItem key={index} item={item} />))}
-    </div>
-    <SubHeading title={"Dessert and Drinks"} id={'beverages'}/>
-    <div className='container'>
-      {dessertItems.map((item,index) =>(<MenuItem key={index} item={item} />))}
-    </div>
-  </div>
 )};
 
 export default SpecialMenu;

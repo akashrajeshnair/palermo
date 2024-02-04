@@ -5,7 +5,7 @@ import './Header.css';
 import { SubHeading } from '../../components';
 
 const Header = () => (
-  <div className="app-header app-wrapper section-padding" id='home'>
+  <div className="app-header app-wrapper section-padding app-bg" id='home'>
     <div className='app-wrapper-info'>
       <SubHeading title="Chase the new flavor"/>
       <h1 className='app-header-h1'>An experience for your tastebuds</h1>

@@ -34,6 +34,7 @@ import tiramisu from '../assets/tiramisu.jpg'
 import gelato from '../assets/gelato.jpg'
 import espresso from '../assets/espresso.jpg'
 import latte from '../assets/latte.jpg'
+import background from '../assets/background.jpg'
 
 export default {
   bg,
@@ -72,4 +73,5 @@ export default {
   gelato,
   espresso,
   latte,
+  background,
 };

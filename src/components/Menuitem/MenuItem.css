@@ -1,15 +1,22 @@
 .card-menu{
-    display: flex;
+  display: flex;
   flex-direction: column;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
   padding: 10px;
   text-align: center;
+  background-color: #512c55;
+  border-radius: 25px;
+  margin: 10px;
 }
 .card-menu img {
     max-width: 100%;
     height: auto;
+    border-radius: 25px;
   }
   
   .card-body{
     margin-top: 10px;
+    background-color: #FFD1E3;
+    color: #512c55;
+    border-radius: 25px;
   }

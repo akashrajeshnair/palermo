@@ -1,7 +1,7 @@
 .breadcrumb-container{
     text-align: center;
     margin-top: 20px;
-    margin-left: 190px;
+    margin-left: 245px;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -10,15 +10,19 @@
     color: #512c55;
     width: 1000px;
     background-color: #FFD1E3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
   }
 
 li {
-    display: inline;
+    display: inline-flex;
     padding: 10px;
 }
 li:hover{

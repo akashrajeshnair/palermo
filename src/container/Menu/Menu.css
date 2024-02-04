@@ -12,3 +12,6 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 }
+.container:last-of-type{
+    margin-bottom: 25px;
+}
