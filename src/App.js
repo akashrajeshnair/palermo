@@ -5,7 +5,7 @@ import {
   Routes,
   Route,
 }from "react-router-dom";
-import { AboutUs, FindUs, Footer, Header, Laurels, SpecialMenu, Book, BookConfirm, BookCancel, CancelConfirm } from './container';
+import { AboutUs, FindUs, Footer, Header, Laurels, SpecialMenu, Book, BookConfirm, BookCancel, CancelConfirm} from './container';
 import { Navbar } from './components';
 
 

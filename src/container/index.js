@@ -19,5 +19,5 @@ export {
   Book,
   BookConfirm,
   BookCancel,
-  CancelConfirm
+  CancelConfirm,
 };
